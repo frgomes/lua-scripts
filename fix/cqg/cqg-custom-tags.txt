@@ -7,6 +7,7 @@
 "20017","MarketValue","Amt","Market value of options and fixed income."
 "20018","OpenTradeEquity","Amt","Unrealized P&L for futures."
 "20021","UnrealizedPL","Amt","Unrealized P&L for options and fixed income."
+"20022","ReqResult","Int","Valid values: 0 = Valid Request; 1 = Invalid or unsupported Request; 2 = No orders found that match criteria; 3 = Not all orders were sent due to internal error. Call support."
 "20023","StatementDate","LocalMktDate","FCM business day this trade corresponds to."
 "20024","LegStatementDate","LocalMktDate","FCM business day this individual leg trade of multi-leg security corresponds to. Required if NoLegs (50555) > 0 and ExecType = 2 (Fill) or 1 (Partial fill)."
 "20025","LegClearingBusinessDate","LocalMktDate","Exchange trade day this individual leg trade of multi-leg security corresponds to. Required if NoLegs (50555) > 0 and ExecType = 2 (Fill) or 1 (Partial fill)."
