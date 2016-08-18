@@ -7,7 +7,7 @@
 
 prev=0
 for line in io.input():lines() do
-  for tag_, name_, type_, len_, req_ in string.gmatch(line, '"(%w+)","(%w+)","(%w+)(%(*%d*%)*)","(%w+)"') do
+  for tag_, name_, type_, len_ in string.gmatch(line, '"(%w+)","(%w+)","(%w+)(%(*%d*%)*)"') do
     if (tag_ ~= prev) then
       print('  <field number="' .. tag_ .. '" name="' .. name_ .. '" type="' .. string.upper(type_) .. '" />')
     end
